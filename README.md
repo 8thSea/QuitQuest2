@@ -1,13 +1,33 @@
-# QuitQuest
+# Quit Quest
 
----
+A retro-themed smoking cessation tracker built with React Native (Expo) and Firebase.
 
-## License
+## Setup
 
-© 2025 Jonathan Klimoski. All rights reserved.
+1. Install dependencies with `npm install` or `yarn install`.
+2. Copy `firebaseConfig.js` and add your Firebase project keys.
+3. Replace placeholder Stripe and AdMob keys in `services/stripeService.js` and `screens/AchievementsScreen.js`.
+4. Run the app:
 
-This software and all accompanying files, assets, code, and documentation are proprietary and closed-source. No portion of this software may be copied, distributed, modified, or used in any form without the express prior written permission of [Your Name or Organization].
+```sh
+npm run start
+```
 
-For licensing inquiries or to request permission for use, please contact:  
-Jonathan Klimoski 
-jonathanklimoski@proton.me
+## Building
+
+- **Android:** `npm run build:android`
+- **iOS:** `npm run build:ios`
+- **Web:** `npm run build:web`
+
+## Firebase Rules
+
+See `firestore.rules` for basic security rules restricting access to user documents by UID.
+
+## Deployment
+
+- Follow Expo's docs to configure EAS for standalone builds and upload to the stores.
+- Deploy the web build to Netlify/Vercel by serving the `web-build` directory.
+
+## Assets
+
+All pixel art assets live under `assets/16bit/`. Use a 16-bit SNES palette and keep integer scaling for a crisp look.

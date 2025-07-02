@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Quit Quest",
+    "slug": "quit-quest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/16bit/ui/placeholder.txt",
+    "scheme": "quitquest",
+    "platforms": ["ios", "android", "web"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/16bit/ui/placeholder.txt",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/16bit/ui/placeholder.txt"
+    }
+  }
+}
