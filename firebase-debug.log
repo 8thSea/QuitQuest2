@@ -1,0 +1,21 @@
+[debug] [2025-07-04T23:06:13.140Z] ----------------------------------------------------------------------
+[debug] [2025-07-04T23:06:13.143Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\genew\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-07-04T23:06:13.143Z] CLI Version:   14.9.0
+[debug] [2025-07-04T23:06:13.143Z] Platform:      win32
+[debug] [2025-07-04T23:06:13.143Z] Node Version:  v20.18.0
+[debug] [2025-07-04T23:06:13.143Z] Time:          Fri Jul 04 2025 16:06:13 GMT-0700 (Pacific Daylight Time)
+[debug] [2025-07-04T23:06:13.144Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-04T23:06:13.148Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-04T23:06:13.149Z] > authorizing via signed-in user (8thseacreative@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\genew\OneDrive\Desktop\QuitQuestFresh
+
